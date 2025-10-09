@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	25.08.1
+%define		kdeappsver	25.08.2
 %define		qtver		6.5.0
 %define		kframever	6.13.0
 %define		kaname		konversation
 Summary:	Konversation
 Name:		ka6-%{kaname}
-Version:	25.08.1
+Version:	25.08.2
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	ace24467730d079273323b401b14194a
+# Source0-md5:	7d5bb5b891f8369317ce8d0a83781464
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6DBus-devel >= %{qtver}
