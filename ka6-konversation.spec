@@ -58,7 +58,47 @@ Obsoletes:	ka5-%{kaname} < %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Konversation.
+Konversation is a user-friendly Internet Relay Chat (IRC) client by
+KDE. It provides easy access to standard IRC networks such as Libera,
+where the KDE IRC channels can be found.
+
+Features:
+
+- Standard IRC features
+- SSL server support
+- Bookmarking support
+- Easy to use graphical user interface
+- Multiple servers and channels in one single window
+- DCC file transfer
+- Multiple identities for different servers
+- Text decorations and colors
+- OnScreen Display for notifications
+- Automatic UTF-8 detection
+- Per channel encoding support
+- Theme support for nick icons
+- Highly configurable
+
+%description -l pl.UTF-8
+Konversation jest przyjaznym użytkownikowi programem do obsługi
+Internet Relay Chat (IRC) dla KDE. Zapewnia łatwy dostęp do
+standardowych sieci IRC, takich jak Libera, na których można znaleźć
+kanały IRC dla KDE.
+
+Możliwości:
+
+- Standardowe możliwości IRC
+- Obsługa serwera SSL
+- Obsługa zakładek
+- Łatwy w użyciu interfejs graficzny
+- Wiele serwerów i kanałów w pojedynczym oknie
+- Przesyłanie plików przez DCC
+- Wiele tożsamości dla różnych serwerów
+- Ozdobny, kolorowy tekst
+- Powiadomienia ekranowe
+- Samoczynne wykrywanie UTF-8
+- Kodowanie zależne od kanału
+- Obsługa wystrojów dla ikon pseudonimów
+- Wysoce ustawialny
 
 %package data
 Summary:	Data files for %{kaname}
